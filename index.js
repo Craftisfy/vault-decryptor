@@ -12,9 +12,10 @@ const store = configureStore({
   nonce: 1,
 })
 
+
 render(
   h(Root, {
-    store,
+    store
   }),
 container)
 
